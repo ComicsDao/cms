@@ -1,0 +1,36 @@
+{
+    "kind": "collectionType",
+    "collectionName": "nouns_comics",
+    "info": {
+        "singularName": "nouns-comic",
+        "pluralName": "nouns-comics",
+        "displayName": "Nouns Comic",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "issue": {
+            "type": "string",
+            "required": true
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text",
+            "required": true
+        },
+        "Cards": {
+            "type": "dynamiczone",
+            "components": [
+                "card.comics-card",
+                "card.generative-card"
+            ],
+            "required": true
+        }
+    }
+}

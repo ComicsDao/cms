@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_card_generative_cards",
+    "info": {
+        "displayName": "Generative Card",
+        "icon": "atom"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "string",
+            "required": true
+        },
+        "image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "link": {
+            "type": "string",
+            "required": true
+        }
+    }
+}
