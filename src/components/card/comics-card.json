@@ -2,7 +2,8 @@
   "collectionName": "components_card_comics_cards",
   "info": {
     "displayName": "Comics Card",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,24 +12,24 @@
       "required": true
     },
     "description": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "comics": {
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "comics": {
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
